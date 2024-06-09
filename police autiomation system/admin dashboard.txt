@@ -1,0 +1,11 @@
+Admin dashboard 
+
+dashboard - will be showing the statistics page. (this could change later but still add a section)
+
+Complaints - when an external person add up online complaint, they will be recorded and showed here. 
+
+Add police - police related CRUD operations
+
+Prisoners - prisoner related CRUD operations
+
+admin - admin profile

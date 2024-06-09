@@ -1,0 +1,19 @@
+police station map
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1eKoM1qYewGZLI74feh-QM1Ror6-Zji8&ehbc=2E312F" width="640" height="480"></iframe>
+
+verifications
+https://developer.telesign.com/enterprise/reference/sendsmsverifycodev
+
+How to create button to open SMS compose to a phone number using HTML ?
+https://www.geeksforgeeks.org/how-to-create-button-to-open-sms-compose-to-a-phone-number-using-html/
+
+how to send sms through form
+https://stackoverflow.com/questions/45233592/html-code-to-send-sms-message-through-a-form
+
+example police dashbord (this one is for police and admin internal web application interfaces)
+https://www.youtube.com/watch?v=Ei9bZJ-EG8o
+
+side bar navigation
+https://youtu.be/P1RwfxvQKQM?si=ukrJhDyV6e7U93vT
+https://youtu.be/V0O4pY2xX10?si=CpUfpzW4yAtolT4X

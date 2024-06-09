@@ -1,0 +1,543 @@
+.img{
+	display: block;
+	margin-left:4%;
+	margin-right:auto;
+	margin-top: 2%;
+	width: 10%;
+	animation-name: slideFromTop;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+}
+.bar{
+	width: 30px;
+	height: 30px;
+}
+body{
+	background-color:rgb(75, 75, 22);
+	background-repeat:no-repeat;
+}
+
+button{
+	color: #fbfcfd;
+	padding:10px 25px;
+	background:transparent;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	outline: none;
+	cursor:pointer;
+	margin-top: 8px;
+	transition: transform 0.3s;
+}
+button:hover{
+	transform: translateY(-5px);
+}
+@keyframes slideFromTop{
+	from{
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@keyframes slideFrombot{
+	from{
+		opacity: 0;
+		transform: translateY(-35%);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(-50%);
+	}
+}
+@keyframes Fade{
+	from{
+		opacity: 0;
+		transform: translateY(30px) scale(0,9);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+@keyframes slideFrombotcon{
+	from{
+		opacity: 0;
+		transform: translateY(-120px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(-170px);
+	}
+}
+@keyframes slideFrombotq{
+	from{
+		opacity: 0;
+		transform: translateY(0%);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(-15%);
+	}
+}
+@keyframes slideleft{
+	from{
+		opacity: 0;
+		transform: translateX(-5px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(2px);
+	}
+}
+.butcon{
+	background-color:rgba(255,255,255,30%);
+	border-radius: 15px;
+	padding-top:5%;
+	padding-bottom:5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+	animation-name: slideFromTop;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	
+}
+.cont{
+	 background-color:rgba(255,255,255,50%);
+	 padding: 10px;
+	 border-radius: 15px;
+	 position: absolute;
+	 top: 50%;
+	 left: 8%;
+	 right: 8%;
+	 transform: translateY(-50%);
+	 z-index: -2;
+	 font-family: century gothic;
+	 animation-name: slideFrombot;
+	 animation-duration: 1s;
+	 animation-timing-function: ease;
+ }
+ .contprod{
+	background-color:rgba(255,255,255,50%);
+	padding: 10px;
+	border-radius: 15px;
+	position: absolute;
+	top: 60%;
+	left: 8%;
+	right: 8%;
+	transform: translateY(-50%);
+	z-index: -2;
+	font-family: century gothic;
+	animation-name: slideFrombot;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+ }
+ 
+ .contact{
+	 background-color:rgba(255,255,255,50%);
+	 padding-bottom: 50px;
+	 padding-left: 30px;
+	 border-radius: 15px;
+	 position: absolute;
+	 top: 40%;
+	 left: 8%;
+	 right: 8%;
+	 transform: translateY(-20%);
+	 z-index: -2;
+	 font-family: century gothic;
+	 animation-name: slideFrombotcon;
+	 animation-duration: 1s;
+	 animation-timing-function: ease;
+ }
+ .contabt{
+	 background-color:rgba(255,255,255,50%);
+	 padding: 10px;
+	 border-radius: 15px;
+	 position: absolute;
+	 top: 65%;
+	 left: 8%;
+	 right: 8%;
+	 transform: translateY(-50%);
+	 z-index: -2;
+	 font-family: century gothic;
+	 animation-name: slideFrombot;
+	 animation-duration: 1s;
+	 animation-timing-function: ease;
+ }
+ 
+#vid{
+	 border-radius: 20px;
+	 width: 50%;
+	 height: 50%;
+	 animation: Fade 1s; 
+ }
+ 
+.pabt{
+	content: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#h1abt{
+	 font-size: 70px;
+	 margin-top: 2%;
+	 margin-left: 20px;
+	 font-family: century gothic;
+ }
+#h1{
+	 font-size: 70px;
+	 margin-top: 2%;
+	 font-family: century gothic;
+ }
+h3{
+	 font-size: 20px;
+	 font-family: century gothic;
+ }
+#address{
+	margin-left:10px;
+}
+ 
+#conp{
+	margin-left: 10px;
+}
+
+#icon:hover{
+	margin-left: 10px;
+	transition: transform 0.3s;
+	animation-name: slideleft;
+	animation-duration: 0.3s;
+	animation-timing-function: ease;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:510px;
+	width:770px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:510px;
+	width:770px;
+}
+
+.sidenav{
+	width: 50px;
+	height: 70%;
+	border-radius: 10px;
+	top: 30%;
+	left: 0;
+	margin-bottom: 40%;
+	padding: 30px 15px;
+	background-color: rgba(255,255,255,0.2);
+	animation-name: slideleft;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+}
+
+ul{
+	list-style: none;
+	padding:0 15px;
+}
+li{
+	margin: 30px 0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	cursor:pointer;
+}
+.form{
+	background-color:rgba(255,255,255,50%);
+	padding: 10px;
+	border-radius: 15px;
+	position: absolute;
+	top: 30%;
+	left: 8%;
+	right: 8%;
+	transform: translateY(-15%);
+	z-index: -2;
+	font-family: century gothic;
+	animation-name: slideFrombotq;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	padding-bottom: 70px;
+
+}
+
+#formin{
+	background-color:rgba(120,170,150,80%);
+	padding: 40px;
+	border-radius: 15px;
+	margin-right: 30%;
+	margin-left: 30%;
+	animation-name: slideFromTop;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	
+}
+
+.txt{
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 30px;
+	font-family:century gothic;
+}
+
+.txtA{
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 90px;
+	font-family:century gothic;
+}
+
+select, option{
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 20px;
+	width: 40%;
+	height: 30px;
+	font-family:century gothic;
+}
+
+.scrimg{
+	width : 200px;
+	height : 200px;	
+}
+
+.scroll{
+	background-color:rgba(20,20,20,0.5);
+	padding:10px;
+	border-radius:10px;
+	display: grid;
+	grid-auto-flow: column;
+	overflow-x: auto;
+	transition: transform 0.3s;
+	align-items:center;
+	justify-content:space-between; 
+}
+.arr{
+	color:white;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+#arrow, #arrow1{
+	padding: 0px;
+	border:transparent;
+}
+#arrow1{
+	margin-bottom: 10px;
+}
+.scroll::-webkit-scrollbar{
+	-webkit-appearance: none;
+}
+.a{
+	position: fixed;
+}
+.a1{
+	position: fixed;
+	margin-left: 93%;
+	margin-bottom: -0.9%;
+}
+
+#priceLabel{
+	color: rgb(50, 133, 133);
+	font-size: 50px;
+}
+.priceLabel{
+	color: rgb(8, 82, 82);
+	padding: 10px;
+	font-size: 30px;
+	background-color:rgba(120,170,150,80%);
+	border-color: black;
+	border-radius: 15px;
+}
+/*max-width : 1400px*/
+@media only screen and (max-width : 800px) and (orientation: portrait){
+	body{
+		background-image:url(x.webp);
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+	}
+	#h1abt{
+		font-size: 50px;
+		margin-top: 2%;
+		margin-left: 20px;
+		font-family: century gothic;
+	}
+   #h1{
+		font-size: 50px;
+		margin-top: 2%;
+		font-family: century gothic;
+	}
+   h3{
+		font-size: 20px;
+		font-family: century gothic;
+	}
+	.butcon{
+		background-color:rgba(255,255,255,30%);
+		border-radius: 15px;
+		padding-top:10%;
+		padding-bottom:10%;
+		padding-left: 20%;
+		padding-right: 20%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 50%;
+		animation-name: slideFromTop;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+		
+	}
+	.img{
+		margin:10px, 75%;
+		width: 30%;
+	}
+	.combo{
+		width:650px;
+	}
+	.cont{
+		background-color:rgba(255,255,255,50%);
+		padding: 10px;
+		border-radius: 15px;
+		position: absolute;
+		top: 50%;
+		left: 8%;
+		right: 8%;
+	}
+	.contprod{
+	   background-color:rgba(255,255,255,50%);
+	   padding: 5%;
+	   margin-top: -45%;
+	   border-radius: 15px;
+	   position: absolute;
+	   top: 63%;
+	   left: 8%;
+	   right: 8%;
+	}
+	
+	.contact{
+		background-color:rgba(255,255,255,50%);
+		padding-bottom: 50px;
+		padding-left: 30px;
+		border-radius: 15px;
+		position: absolute;
+		top: 40%;
+		left: 8%;
+		right: 8%;
+		transform: translateY(-20%);
+		z-index: -2;
+		font-family: century gothic;
+		animation-name: slideFrombotcon;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+	}
+	.contabt{
+		background-color:rgba(255,255,255,50%);
+		padding: 10px;
+		border-radius: 15px;
+		position: absolute;
+		margin-top: 8%;
+		left: 8%;
+		right: 8%;
+		transform: translateY(-50%);
+		z-index: -2;
+		font-family: century gothic;
+		animation-name: slideFrombot;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+	}
+	.scroll{
+		background-color:rgba(20,20,20,0.5);
+		padding:10px;
+		border-radius:10px;
+		display: grid;
+		grid-auto-flow: column;
+		overflow-x: auto;
+		transition: transform 0.3s;
+		align-items:center;
+		justify-content:space-between; 
+	}
+	#vid{
+		border-radius: 20px;
+		width: 90%;
+		height: 90%;
+		animation: Fade 1s; 
+	}
+	#formin{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding: 20px;
+	}
+	.form{
+		background-color:rgba(255,255,255,50%);
+		padding-left: 2%;
+		padding-right: 2%;
+		border-radius: 15px;
+		position: absolute;
+		top: 23%;
+		padding-bottom: 70px;
+	
+	}
+
+}
+@media only screen and (max-width : 400px) and (orientation: portrait){
+	.cont{
+		top: 55%;
+	}
+	.contprod{
+		background-color:rgba(255,255,255,50%);
+		padding: 5%;
+		margin-top: -45%;
+		border-radius: 15px;
+		position: absolute;
+		top: 65%;
+		left: 8%;
+		right: 8%;
+	 }
+	 .combo{
+		width:630px;
+	}
+}
+@media only screen and (max-width : 389px) and (orientation: portrait){
+	.cont{
+		top: 70%;
+	}
+	.contprod{
+		background-color:rgba(255,255,255,50%);
+		padding: 5%;
+		margin-top: -45%;
+		border-radius: 15px;
+		position: absolute;
+		top: 80%;
+		left: 8%;
+		right: 8%;
+	 }
+}
+@media only screen and (max-width : 300px) and (orientation: portrait){
+	.cont{
+		top: 90%;
+	}
+	.contprod{
+		background-color:rgba(255,255,255,50%);
+		padding: 5%;
+		margin-top: -45%;
+		border-radius: 15px;
+		position: absolute;
+		top: 75%;
+		margin-left: 1%;
+		margin-right: 1%;
+	 }
+	 .combo{
+		width:500px;
+	}
+}
