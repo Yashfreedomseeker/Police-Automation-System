@@ -1,0 +1,44 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+
+
+th {
+    background-color: #aaa8a8;
+    text-align: center;
+    color:white;
+    border: 5px solid white;
+    border: radius 10px;;
+}
+
+body
+    {
+        background-color: rgb(140, 140, 203);
+    }
+
+#dataBody tr:hover {
+        background-color: #e0e0e0; /* Row hover effect */
+}
+
+#dataBody {
+    background-color: #f9f9f9; /* Light background color */
+    color: #333;              /* Text color */
+    font-family: 'Open Sans', sans-serif; /* Font family */
+}
+
+#dataBody tr {
+    border-bottom: 1px solid #ddd; /* Border for table rows */
+}
+
+#dataBody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row colors for better readability */
+}
+
+
+
+#dataBody td {
+    padding: 8px;       /* Cell padding */
+    text-align: left;   /* Cell text alignment */
+}

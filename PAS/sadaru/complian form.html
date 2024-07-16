@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Status Form</title>
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>Complaints Status</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="district">Your District</label>
+            <select id="district" name="district">
+                <option value="">Select District</option>
+            </select>
+
+            <label for="police-station">Nearest Police Station</label>
+            <select id="police-station" name="police-station">
+                <option value="">Select Police Station</option>
+            </select>
+
+            <label for="complaint-category">Complaint Category</label>
+            <select id="complaint-category" name="complaint-category">
+                <option value="">Select Complaint Category</option>
+            </select>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+
+            <label for="nic-number">NIC Number</label>
+            <input type="text" id="nic-number" name="nic-number">
+
+            <label for="contact-number">Contact Number</label>
+            <input type="text" id="contact-number" name="contact-number">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+
+            <label for="complaint">Complaint</label>
+            <textarea id="complaint" name="complaint"></textarea>
+
+            <label for="complaint-subject">Complaint Subject</label>
+            <input type="text" id="complaint-subject" name="complaint-subject">
+
+            <label>
+                <input type="checkbox" name="notification">
+                I need notification about the status of the complaint
+            </label>
+
+            <label for="attachment">Attachment (Max size 5MB)</label>
+            <input type="file" id="attachment" name="attachment">
+
+            <label for="captcha">Enter Captcha</label>
+            <input type="text" id="captcha" name="captcha">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

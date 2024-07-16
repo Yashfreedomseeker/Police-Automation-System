@@ -1,0 +1,15 @@
+Police dashboard [same will be used for admin dashboard]
+
+dasboard - will show up the statistics and the "generate summary report for OIC" will be there in this page.
+
+New case - adding up a new case [could be manual, or online submitted one]
+
+Follow up - if the case is dragging, then we have to inform the necessary parties. and therefore, we need to record the updated stuff about case findings. to "follow up" from there onwards.
+
+Prisoners - all the details aboout prisoners will be here. [view only]
+(will add-up the functionalities as proceed)
+
+view bookings - the information of the bookings related to onsite meetings will be handled here.
+
+my profile - can go to your profile details. (view only)
+

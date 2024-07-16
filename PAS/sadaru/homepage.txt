@@ -1,0 +1,12 @@
+homepage design
+
+lodge complaint - online complaints form
+clearance report - form for clearance report
+lost mobiles - complaints about lost mobiles
+book an appointments - form for booking appointments
+my status - shows the status of user compalaint
+
+contacts - for these, the links of the original webpage will be attached. also for the map in police stations, there is a code to embed the map in external websites. it is in the useful links doc. use that.
+
+for the navigation bar, use the help of original website.
+https://www.police.lk
