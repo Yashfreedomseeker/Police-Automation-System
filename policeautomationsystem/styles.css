@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #5aa6d2;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.logopic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #faf7f7;
+    margin-bottom: 15px;
+
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #6d4eea;
+}
+
+.logout-btn {
+    margin-top: auto;
+    background-color: #2f89a2;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color:rgb(150, 168, 236);
+    
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.stat-box {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.d-none {
+    display: none;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #588dd2;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td img {
+    width: 50px;
+    height: auto;
+}
+
+/* General form styling */
+#follow-up-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Form group styling */
+#follow-up-form .form-group {
+    margin-bottom: 15px;
+}
+
+/* Form labels */
+#follow-up-form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Form inputs */
+#follow-up-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+/* Submit button */
+#follow-up-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+#follow-up-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
