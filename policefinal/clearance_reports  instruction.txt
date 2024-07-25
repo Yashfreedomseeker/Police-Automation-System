@@ -1,0 +1,19 @@
+CREATE TABLE clearance_reports (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    application_type VARCHAR(50),
+    nationality VARCHAR(100),
+    citizen_of_sri_lanka VARCHAR(10),
+    dob DATE,
+    left_sri_lanka VARCHAR(10),
+    age INT,
+    nic_no VARCHAR(20),
+    confirm_nic_no VARCHAR(20),
+    new_nic_no VARCHAR(20),
+    confirm_new_nic_no VARCHAR(20),
+    passport_no VARCHAR(20),
+    confirm_passport_no VARCHAR(20),
+    country VARCHAR(100),
+    high_commission TEXT,
+    address TEXT,
+    
+);
