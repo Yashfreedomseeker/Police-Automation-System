@@ -1,0 +1,6 @@
+reCAPTCHA
+
+
+label-cmyjdeveloper
+Site key-6LeTqwwqAAAAAIo9vHeu4MhvGx2FbykbxIRdGo0i
+secret key-6LeTqwwqAAAAAFeDP_Ntg2kTVpPSeiTiMe0Av7dj

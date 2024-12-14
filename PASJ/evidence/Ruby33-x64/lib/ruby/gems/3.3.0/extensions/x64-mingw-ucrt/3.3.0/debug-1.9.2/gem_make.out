@@ -1,0 +1,20 @@
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/debug-1.9.2/ext/debug
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-gwkrjt sitelibdir\=./.gem.20240605-7216-gwkrjt clean
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-gwkrjt sitelibdir\=./.gem.20240605-7216-gwkrjt
+generating debug-x64-mingw-ucrt.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-gwkrjt sitelibdir\=./.gem.20240605-7216-gwkrjt install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240605-7216-gwkrjt/debug
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-gwkrjt sitelibdir\=./.gem.20240605-7216-gwkrjt clean

@@ -1,0 +1,19 @@
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/erb-4.0.4/ext/erb/escape
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-smf7l7 sitelibdir\=./.gem.20240605-7216-smf7l7 clean
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-smf7l7 sitelibdir\=./.gem.20240605-7216-smf7l7
+generating escape-x64-mingw-ucrt.def
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-smf7l7 sitelibdir\=./.gem.20240605-7216-smf7l7 install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20240605-7216-smf7l7/erb
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-smf7l7 sitelibdir\=./.gem.20240605-7216-smf7l7 clean

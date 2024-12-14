@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	name:ETI" Prism::Debug::Encoding#name;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"CThe name of the encoding, that can be passed to Encoding.find.;T:
+@fileI"lib/prism/debug.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Prism::Debug::Encoding;TcRDoc::NormalClass0

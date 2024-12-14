@@ -1,0 +1,19 @@
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-318b9v sitelibdir\=./.gem.20240605-7216-318b9v clean
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-318b9v sitelibdir\=./.gem.20240605-7216-318b9v
+generating cparse-x64-mingw-ucrt.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-318b9v sitelibdir\=./.gem.20240605-7216-318b9v install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240605-7216-318b9v/racc
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-318b9v sitelibdir\=./.gem.20240605-7216-318b9v clean

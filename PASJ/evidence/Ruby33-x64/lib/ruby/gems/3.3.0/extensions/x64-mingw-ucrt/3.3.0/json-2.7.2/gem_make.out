@@ -1,0 +1,16 @@
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/json-2.7.2/ext/json
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-famx97 sitelibdir\=./.gem.20240605-7216-famx97 clean
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-famx97 sitelibdir\=./.gem.20240605-7216-famx97
+make: Nothing to be done for 'all'.
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-famx97 sitelibdir\=./.gem.20240605-7216-famx97 install
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-famx97 sitelibdir\=./.gem.20240605-7216-famx97 clean

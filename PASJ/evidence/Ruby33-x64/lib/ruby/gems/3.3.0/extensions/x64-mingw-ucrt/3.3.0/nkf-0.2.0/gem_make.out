@@ -1,0 +1,19 @@
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/nkf-0.2.0/ext/nkf
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-ul22zf sitelibdir\=./.gem.20240605-7216-ul22zf clean
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-ul22zf sitelibdir\=./.gem.20240605-7216-ul22zf
+generating nkf-x64-mingw-ucrt.def
+compiling nkf.c
+linking shared-object nkf.so
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-ul22zf sitelibdir\=./.gem.20240605-7216-ul22zf install
+/usr/bin/install -c -m 0755 nkf.so ./.gem.20240605-7216-ul22zf
+
+current directory: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240605-7216-ul22zf sitelibdir\=./.gem.20240605-7216-ul22zf clean
