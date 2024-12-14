@@ -1,0 +1,29 @@
+
+CREATE DATABASE pas;
+
+USE pas;
+
+CREATE TABLE Prisoner (
+    Prisoner_Id INT AUTO_INCREMENT PRIMARY KEY,
+    Prisoner_Nic VARCHAR(12) NOT NULL,
+    Name VARCHAR(100) NOT NULL,
+    Date_Of_Birth DATE NOT NULL,
+    Date_Imprisonment DATE NOT NULL,
+    Period_Of_Imprisonment INT NOT NULL,
+    Responsible_Crime VARCHAR(255) NOT NULL,
+    Case_Act_No VARCHAR(50) NOT NULL
+);
+
+
+CREATE TABLE Police (
+    Police_Officer_ID INT AUTO_INCREMENT PRIMARY KEY,
+    NIC VARCHAR(20) NOT NULL,
+    Name VARCHAR(100) NOT NULL,
+    Date_Of_Birth DATE NOT NULL,
+    Date_Of_Enrolled DATE NOT NULL,
+    Position VARCHAR(50) NOT NULL,
+    Current_Branch VARCHAR(50) NOT NULL,
+    Contact_No VARCHAR(20) NOT NULL,
+    Promotion_Details TEXT,
+    Address TEXT
+);
