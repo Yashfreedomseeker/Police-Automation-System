@@ -1,0 +1,97 @@
+My profile(onclick picture)-	get profile.php
+				profile.js
+
+Newcase-	newcase.css
+		newcase.html
+		submitcase.php
+
+follow up-	followup.js
+		record update.php
+
+prisoners-	dashboard.js
+		fetch_prisoners.php
+
+view booking	-booking.js
+		fetch_booking.php
+
+Genarate suymmary report-	genarate_summary_report.php
+				summary Report.js
+
+police main dashboard-police dashboard.php
+
+click on logout button> goto Police Automation System / Home page.html
+
+folder name-policeautomationsystem
+
+
+database part
+
+	uses software-WampServer localhost
+
+
+	sql code
+
+		CREATE DATABASE case_management;
+
+		CREATE TABLE cases (
+    		case_id INT AUTO_INCREMENT PRIMARY KEY,
+    		complainant_id VARCHAR(50) NOT NULL,
+    		case_type VARCHAR(50) NOT NULL,
+    		date_time DATETIME NOT NULL,
+    		evidence TEXT NOT NULL,
+    		description TEXT NOT NULL
+		);
+
+		ALTER TABLE cases
+		ADD COLUMN case_status text;
+
+		ALTER TABLE cases
+		ADD COLUMN evidance2 text;
+
+		
+
+
+		CREATE TABLE prisoners (
+    		id INT AUTO_INCREMENT PRIMARY KEY,
+    		nic VARCHAR(20) NOT NULL,
+    		name VARCHAR(100) NOT NULL,
+    		birthday DATE NOT NULL,
+    		date_imprisoned DATE NOT NULL,
+    		period_of_imprisonment VARCHAR(50) NOT NULL,
+    		acquitted_on DATE,
+    		responsible_crime VARCHAR(255) NOT NULL,
+    		case_reference_no VARCHAR(50) NOT NULL,
+    		image VARCHAR(255) NOT NULL
+		);
+
+		CREATE TABLE bookings (
+    		id INT AUTO_INCREMENT PRIMARY KEY,
+    		nic VARCHAR(12) NOT NULL,
+    		name VARCHAR(100) NOT NULL,
+    		date DATE NOT NULL,
+    		time TIME NOT NULL
+		);
+
+
+		CREATE TABLE police_profiles (
+    		id INT AUTO_INCREMENT PRIMARY KEY,
+    		police_id VARCHAR(50) NOT NULL,
+    		nic VARCHAR(20) NOT NULL UNIQUE,
+   		name VARCHAR(100) NOT NULL,
+   		mobile VARCHAR(15),
+    		birthday DATE,
+    		address TEXT,
+    		date_joined DATE,
+    		date_leaving DATE,
+    		position VARCHAR(50),
+    		promotions TEXT
+);
+
+
+<?php
+    session_start();
+    if (!isset($_SESSION['username'])) {
+    header("Location: http://localhost/police_Automation_System/policefinal/homepage.php");
+    exit();
+    }
+?>		

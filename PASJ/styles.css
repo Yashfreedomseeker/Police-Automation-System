@@ -1,0 +1,348 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family:'century gothic';
+    background: linear-gradient(to right, #b3ced0,#ffffff,#004df3);
+}
+.sidebar {
+    min-width: 50vh;
+    width: auto;
+    background-color: #7197ff;
+    color: rgb(47, 80, 230);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    transition: transform 0.3s ease, width 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.shrink {
+    width: 0;
+    transform: translateX(-250px);
+}
+
+.shrink a {
+    display: none;
+}
+
+.sidebar.shrink {
+    width: 60px; /* Width when shrunk */
+}
+
+.graphbox{
+    position:relative;
+    width: 100%;
+    padding:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    -ms-overflow-style: none;
+}
+.graphbox2{
+    position:relative;
+    width: 100%;
+    padding:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    display:inline-flex;
+    -ms-overflow-style: none;
+}
+.graphbox .box{
+    position:relative;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-height: 500px;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+    grid-gap: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #e7f8f7c4;
+    -ms-overflow-style: none;
+    white-space: nowrap; /* Prevent line breaks so that boxes stay in one row */
+}
+
+.graphbox2 .box2 { /*changed*/
+    position: relative;
+    width: auto;
+    max-width: 250px; /* Reduced width */
+    height: auto;
+    max-height: 300px; /* Reduced height */
+    padding: 10px; /* Reduced padding */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Single column */
+    grid-gap: 15px; /* Reduced gap between items */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Reduced shadow size */
+    border-radius: 15px;
+    background-color: #e7f8f7c4;
+}
+.graphbox2 .box3 { /*changed*/
+    position: relative;
+    width: auto;
+    max-width: 250px; /* Reduced width */
+    height: auto;
+    max-height: 300px; /* Reduced height */
+    padding: 15px; /* Reduced padding */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Single column */
+    grid-gap: 15px; /* Reduced gap between items */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Reduced shadow size */
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #e7f8f7c4;
+}
+
+button{
+    background-color: #2068b480;
+    margin:10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.logopic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #faf7f7;
+    margin-bottom: 15px;
+
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #4c76b4c3;
+}
+
+.logout-btn {
+    margin-top: auto;
+    background-color: #041d63;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+.shrink ~ .content {
+    width: 100%;  /* When sidebar shrinks, content takes full width */
+}
+
+.graphbox{
+    position:relative;
+    width: 100%;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+    grid-gap: 30px;
+}
+.graphbox .box{
+    position:relative;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-height: 500px;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+    grid-gap: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.container {
+    background-color: #a8b0df;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.stat-box {
+    background-color:rgb(53, 72, 163);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.d-none {
+    display: none;
+
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table th {
+    width: 20%; /* You can adjust this percentage based on your need */
+    text-align: left; /* Align the text to the left for better appearance */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+
+/* Increase the width of <td> */
+table td {
+    width: 80%; /* Assign more space to the <td> */
+    word-wrap: break-word; /* Wrap text if it's too long */
+}
+
+thead {
+    background-color: #1f55e7;
+    color: #fff;
+}
+
+thead th {
+    padding: 5px;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td img {
+    width: 50px;
+    height: auto;
+}
+
+#pr-image{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#search-prisoner{
+    background-color: #a8b0df;
+    padding: 20px;
+    border-radius: 8px;
+    margin:20px;
+}
+#search-button{
+    background-color: #041d63;
+    margin:10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#nic-input{
+    color: rgb(77, 77, 77);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* General form styling */
+#follow-up-form {
+    background-color: #a8b0df;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Form group styling */
+#follow-up-form .form-group {
+    margin-bottom: 15px;
+}
+
+/* Form labels */
+#follow-up-form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Form inputs */
+#follow-up-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+/* Submit button */
+#follow-up-form button[type="submit"] {
+    background-color: #041d63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+#follow-up-form button[type="submit"]:hover {
+    background-color: #041d63;
+}
+
+@media screen and (max-width: 768px) {
+    /* On smaller screens, hide the sidebar by default */
+    .sidebar {
+        width: 0;
+        transform: translateX(-250px);
+    }
+
+    .sidebar a {
+        display: none;
+    }
+
+    .content {
+        padding-left: 10px;
+    }
+}

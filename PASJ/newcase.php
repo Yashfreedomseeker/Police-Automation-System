@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Case Form</title>
+    <link rel="stylesheet" href="newcase.css">
+</head>
+<body>
+    <div class="container">
+    <form action="submit_case.php" method="post" enctype="multipart/form-data">
+        <h1>Submit a New Case</h1>
+        <label for="complainant_id">Complainant ID:</label><br>
+        <input type="text" id="complainant_id" name="complainant_id" required><br><br>
+
+        <label for="case_type">Case Type:</label><br>
+        <input type="text" id="case_type" name="case_type" required><br><br>
+
+        <label for="date_time">Date and Time Happened:</label><br>
+        <input type="datetime-local" id="date_time" name="date_time" required><br><br>
+
+        <label for="evidence">Evidence (Upload file):</label><br>
+        <input type="file" id="evidence" name="evidence" required><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" required></textarea><br><br>
+
+        <input type="submit" value="Submit Case" name ="submit">
+    </form>
+    </div>
+</body>
+</html>
